@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soap:Body>
+        <GetMaterialInfo xmlns="http://www.dowjones.net/DJ_Interfaces/">
+            <srList soapenc:arrayType="xsd:string[2]" xsi:type="soapenc:Array">
+                <string xsi:type="xsd:string" />
+                <string xsi:type="xsd:string" />
+            </srList>
+            <contentList soapenc:arrayType="xsd:int[2]" xsi:type="soapenc:Array">
+                <string xsi:type="xsd:int">205906335</string>
+                <string xsi:type="xsd:int">205987060</string>
+            </contentList>
+        </GetMaterialInfo>
+    </soap:Body>
+</soap:Envelope>
