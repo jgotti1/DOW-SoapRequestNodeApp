@@ -56,7 +56,7 @@ app.get("/soapRequest/:number", async (req, res) => {
   const response = await getSoapRequest(xml);
 
 
-  const fullResponse = `${response}<!-- ============================================== --><!-- SOAP request completed with number: ${number} -->`;
+  const fullResponse = `${response}<!-- ============================================== --><!-- SOAP request completed with number: ${number} --><!-- ============================================== -->`;
 
   res.setHeader("Content-Type", "text/xml");
   res.send(fullResponse);
