@@ -6,7 +6,7 @@
                 <string xsi:type="xsd:string" />
             </srList>
             <contentList soapenc:arrayType="xsd:int[2]" xsi:type="soapenc:Array">
-                <string xsi:type="xsd:int">number-variable</string>
+                <string xsi:type="xsd:int">205971444</string>
             </contentList>
         </GetMaterialInfo>
     </soap:Body>
