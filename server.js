@@ -23,6 +23,9 @@ async function getSoapResponse(xml) {
 // Endpoint to receive XML from Postman, forward it as a SOAP request, and return the SOAP response
 app.get('/soaprequest', async (req, res) => {
   const xml = req.body.toString();
+  // const incomingHeaders = req.headers;
+  // console.log(incomingHeaders)
+
   try {
     // wait for the SOAP response
     const soapResponse = await getSoapResponse(xml);
